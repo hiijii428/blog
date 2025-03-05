@@ -8,7 +8,7 @@ header, footer{
 }.header h1{
     color: #00f;
     margin-bottom: 0;
-}
+}.header p{margin-bottom: 0px;}
 .side_content{
     overflow: hidden;
 }.side_item{
@@ -23,6 +23,27 @@ header, footer{
     width: 70%;
     max-width: 75%;
     height: 100%;
+}
+.header_nav{display: none;}
+@media screen and (max-width:700px) {
+    .side_item{
+        float: none;
+    }.side_item.side{
+        display: none;
+    }.side_item.main{
+        height: 100%;
+    }
+    .header_nav{
+        display: block;
+        background-color: orange;
+        text-align: center;
+    }.header_nav nav a{
+        margin: 5px;
+        display: inline-block;
+        background-color: #08f;
+        padding: 2px;
+        padding-right: 20px;
+    }
 }
 nav a{
     display: block;

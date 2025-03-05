@@ -1,10 +1,17 @@
-//fetch("https://hiijii428.github.com/blog/side.html")
 $.ajax({
 	type: 'GET',
     // 取得したいページのアドレス
-	url: './side.html',
+	url: 'https://hiijii428.github.io/blog/side.html',
 	success: function(data) {
         document.querySelector("#nav").innerHTML = data;
+	}
+});
+$.ajax({
+	type: 'GET',
+    // 取得したいページのアドレス
+	url: 'https://hiijii428.github.io/blog/header_nav.html',
+	success: function(data) {
+        document.querySelector("#header_nav").innerHTML = data;
 	}
 });
 

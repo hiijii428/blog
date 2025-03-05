@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/main.css">
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
     </head>
     <body>
         <header>
@@ -12,10 +13,12 @@
             <p>2011年生まれの学生です。2024年から独学で<span>HTML</span>,<span>js</span>,<span>arduino</span>などを作っています。<br>
             素人ながら頑張ってます。よろしくどうぞ。</p>
         </header>
+        <div class="header_nav"></div>
         <div class="side_content">
             <div class="side_item side" id="nav">
             </div>
             <div class="side_item main" id="search">
+                <h2>ブログ一覧</h2>
                 <script>
                     let html = document.querySelector("#search")
                     $.ajax({
