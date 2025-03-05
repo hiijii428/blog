@@ -1,0 +1,96 @@
+html, body{padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;}
+header, footer{
+    width: 100%;
+    background-color: #2e5;
+    margin-top: 10px;
+    text-align: center;
+}.header h1{
+    color: #00f;
+    margin-bottom: 0;
+}
+.side_content{
+    overflow: hidden;
+}.side_item{
+    padding: 10px;
+    float: left;
+}.side_item.side{
+    margin-right: 5px;
+    width: 20%;
+    background-color: orange;
+}.side_item.main{
+    padding-left: 25px;
+    width: 70%;
+    max-width: 75%;
+    height: 100%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    color: black;
+    border-radius: 5px;
+    transition: 1s;
+    padding: .3em 2em .3em .3em;
+    margin-bottom: 3px;
+}nav a::before{
+    content: "▶";
+    opacity: 0;
+    transition: 1s;
+}nav a:hover{
+    background-color: #08f;
+    transform: translateX(15px);
+}nav a:hover::before{
+    opacity: 1;
+}
+a div{
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all .5s 0s linear;
+    vertical-align: top;    /*上揃え*/
+    color: black;
+    text-decoration-line: none;
+}a div:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 15px -10px;
+}
+/**markdown 内容のcss**/
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6{
+    width: fit-content;
+    padding-right: 2em;
+    margin-bottom: 1em;
+    border: none;
+    border-bottom: 3px solid #3af;
+    border-left: 2px solid #3af;
+}
+/** pre code **/
+code{
+	border-radius: 5px;
+	background-color: #133;
+	color: #fff;
+	padding: 3px 1.5px;
+	margin: 3px;
+}
+pre code{
+	border-radius: 10px;
+}
+.code_name{
+	color: #fff;
+	background-color: #5e6060;
+	border-radius: 0px 0px 5px 5px;
+	padding: 5px 10px;
+	margin: 0px 5px 5px 5px;
+	width: fit-content;
+	position: relative;
+	top: -15px;
+}
+/** pre code **/
