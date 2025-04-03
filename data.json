@@ -1,5 +1,5 @@
 {"blog_list":[
-    {"date":"2025-03-31","title":"最近作ってるモノの紹介","link":"/blog/2025-03-31","details":"なんとなく最近作っているものを紹介します。"},
-    {"date":"2025-03-05","title":"Ollamaで家にAIを設置する","link":"/blog/2025-03-05","details":"ローカルで動くAIを作ることができます！"}
+    {"date":"2025-03-31","title":"最近作ってるモノの紹介","link":"https://hiijii428.github.io/blog//blog/2025-03-31","details":"なんとなく最近作っているものを紹介します。"},
+    {"date":"2025-03-05","title":"Ollamaで家にAIを設置する","link":"https://hiijii428.github.io/blog/blog/2025-03-05","details":"ローカルで動くAIを作ることができます！"}
 ]
 }
