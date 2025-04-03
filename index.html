@@ -29,7 +29,7 @@
                             let blog_list = data.blog_list
                             for(let b of blog_list){
                                 console.log(b)
-                                let html_tag = "<a href='"+"/blog/?link="+b.link+"&title="+b.title+"'><div>"+"<h2>"+b.title+"</h2>"+"<p>"+b.date+"</p><p>"+b.details+"</p>"+"</div></a>"
+                                let html_tag = "<a href='"+"./blog/?link="+b.link+"&title="+b.title+"'><div>"+"<h2>"+b.title+"</h2>"+"<p>"+b.date+"</p><p>"+b.details+"</p>"+"</div></a>"
                                 html.innerHTML += html_tag
                             }
                         }
