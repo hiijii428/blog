@@ -2,7 +2,8 @@ $.ajax({
 	type: 'GET',
     // 取得したいページのアドレス
 	url: 'https://hiijii428.github.io/blog/side.html',
-	success: function(data) {
+	success: function (data) {
+		console.log(data);
         document.querySelector("#nav").innerHTML = data;
 	}
 });
@@ -10,7 +11,9 @@ $.ajax({
 	type: 'GET',
     // 取得したいページのアドレス
 	url: 'https://hiijii428.github.io/blog/header_nav.html',
-	success: function(data) {
+	success: function (data) {
+		console.log(data);
+		// 取得したデータをHTMLに挿入
         document.querySelector(".header_nav").innerHTML = data;
 	}
 });
