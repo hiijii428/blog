@@ -44,7 +44,7 @@
                 url: search_url["link"] + "/index.md",
                 success: function (data) {
                     console.log(data);
-                        document.querySelector(".markdown").innerHTML += data;
+                        document.querySelector(".markdown").innerHTML += "\n"+data;
                     }
             });
         </script>

@@ -93,7 +93,10 @@ Environment="OLLAMA_ORIGINS=*"
 `bash sudo ufw allow 11434`
 これで API サーバーを立てて外部からも使えるようになりました！
 私の場合は、apache2 で WEB サーバーを立てて、自作ウェブ ollama を使用しています。
-<img src="./2025-03-05/ollama_client.png" width="100%">
+
+<!-- <img src="./2025-03-05/ollama_client.png" width="100%"> -->
+
+![](./2025-03-05/ollama_client.png)  
 誰にでも使ってほしいので、ここにコードを載せておきます。
 使用する際は、コードに、出典元を記載してくれると嬉しいです。
 

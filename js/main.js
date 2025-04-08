@@ -26,7 +26,7 @@ function side_iframe_setting() {
 
 function code_title(){
 	let elm = document.querySelectorAll("code");
-    console.log(elm)
+	console.log(elm);
 	for(let i=0;i<elm.length;i++){
 		let now_elm = elm[i]
 		let code_name = now_elm.className.replace("language-","").replace(" hljs","");
