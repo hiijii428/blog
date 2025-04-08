@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f9;
     color: #333;
     width: 100vw;
-    /* display: flex; */
+    display: flex;
     /* サイドバーとメインコンテンツを横並びにする */
 }
 
