@@ -142,6 +142,12 @@ img{
 .markdown a{
     /* overflow: hidden; */
     word-break: break-all;
+    color: #08f;
+    padding: 2px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
 }
 /** pre code **/
 code {

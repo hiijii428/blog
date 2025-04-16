@@ -106,7 +106,6 @@ Environment="OLLAMA_ORIGINS=*"
         &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
         &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css&quot;&gt;
         &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js&quot;&gt;&lt;/script&gt;
-
         <div class="top_div">
             <h1 class="h1_title">Web版Ollama AI</h1>
             <p>OllamaというAIをWEBでも使ってみよう！</p>
